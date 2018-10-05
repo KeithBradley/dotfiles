@@ -14,9 +14,11 @@ Use at your own risk.
       cd ~/ && git clone git@github.com:jackcutting/dotfiles.git
     ```
 
-2. Change User
-
-  Edit the $USER var [here](https://github.com/jackcutting/dotfiles/blob/master/install.sh#L6)
+2. Change Usernames
+  Edit the $USER var in `install.sh` line 8 [link](https://github.com/jackcutting/dotfiles/blob/master/install.sh#L8)
+  Edit the $COMPUTER_NAME var in `install/macos.sh` line 1 [link](https://github.com/jackcutting/dotfiles/blob/master/install/macos.sh#L1)
+  Edit the git details in `git/.gitconfig` lines 30, 39, 40 [here](https://github.com/jackcutting/dotfiles/blob/master/git/.gitconfig#L30) and [here](https://github.com/jackcutting/dotfiles/blob/master/git/.gitconfig#L39-L40)
+  Edit the $USER var in `zsh/.zshrc` line 2 [link](https://github.com/jackcutting/dotfiles/blob/master/zsh/.zshrc#L2)
 
 3. Install
 

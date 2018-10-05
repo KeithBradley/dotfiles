@@ -13,8 +13,6 @@ apps=(
   adobe-acrobat-reader
   alfred
   android-studio
-  appcleaner
-  apple-juice
   atom
   caffeine
   docker
@@ -30,7 +28,6 @@ apps=(
   postman
   react-native-debugger
   sequel-pro
-  spectacle
   spotify
   sublime-text
   teamviewer
@@ -42,7 +39,6 @@ apps=(
   quicklook-json
   qlprettypatch
   quicklook-csv
-  betterzipql
   qlimagesize
   webpquicklook
   qlvideo
