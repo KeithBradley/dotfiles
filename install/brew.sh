@@ -12,44 +12,43 @@ brew upgrade
 # Install packages
 
 apps=(
+  brew-php-switcher
+  composer
   ctags
+  dockutil
+  git
   git-extras
   gnu-sed --with-default-names
   grep --with-default-names
+  htop
   httpie
   hub
+  iftop
   imagemagick
   mpv
+  mysql
+  nmap
+  openssl
+  php@7.0
+  php@7.1
+  php@7.2
+  potrace
   python
+  python3
+  sqlmap
   the_silver_searcher
+  thefuck
+  tig
   tmux
+  unrar
   vim
   watchman
+  webkit2png
   wget
   wifi-password
   yarn
   zsh
   zsh-completions
-  dockutil
-  htop
-  iftop
-  openssl
-  tig
-  composer
-  nmap
-  php@7.0
-  php@7.1
-  php@7.2
-  brew-php-switcher
-  git
-  python3
-  thefuck
-  webkit2png
-  sqlmap
-  aircrack-ng
-  unrar
-  mysql
-  potrace
 )
 
 brew install "${apps[@]}"
