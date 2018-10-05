@@ -85,6 +85,9 @@ defaults write com.apple.finder ShowRemovableMediaOnDesktop -bool true
 # Finder: show status bar
 defaults write com.apple.finder ShowStatusBar -bool true
 
+# Finder: show hidden files
+defaults write com.apple.finder AppleShowAllFiles YES
+
 # Disable the warning when changing a file extension
 defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
 
@@ -110,6 +113,9 @@ defaults write NSGlobalDomain NSAutomaticDashSubstitutionEnabled -bool false
 
 # Set format of date & hours in menu bar
 defaults write com.apple.menuextra.clock DateFormat -string "EEE d MMM  HH:mm"
+
+# Menubar: auto hide
+defaults write NSGlobalDomain _HIHideMenuBar -bool true
 
 for app in "Address Book" "Calendar" "Contacts" "Dock" "Finder" "Mail" "Safari" "SystemUIServer" "iCal"; do
   killall "${app}" &> /dev/null

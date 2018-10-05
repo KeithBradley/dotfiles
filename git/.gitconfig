@@ -27,7 +27,7 @@
   sts = status -sb
   unstage = reset --hard HEAD
 [core]
-  excludesfile = /Users/simonfletcher/.global_ignore
+  excludesfile = /Users/jackcutting/.global_ignore
   autocrlf = input
 [commit]
   template = ~/.gitmessage
@@ -36,8 +36,8 @@
 [rebase]
   autosquash = true
 [user]
-	name = Simon Fletcher
-	email = simonfletcher0@gmail.com
+	name = Jack Cutting
+	email = me@jackcutting.co.uk
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f

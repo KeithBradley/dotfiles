@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-export USER='mrsimonfletcher'
+export USER='jackcutting'
 export ZSH="/Users/$USER/.oh-my-zsh"
 
 # Set name of the theme to load.
@@ -120,14 +120,14 @@ bindkey -v
 bindkey '^R' history-incremental-search-backward
 
 # Added by the Heroku Toolbelt
-export GOPATH=$HOME/go
-export PATH="/usr/local/heroku/bin:$PATH"
-export PATH=$GOPATH/bin:$PATH
+# export GOPATH=$HOME/go
+# export PATH="/usr/local/heroku/bin:$PATH"
+# export PATH=$GOPATH/bin:$PATH
 export PATH="/usr/local/python/bin:$PATH"
 
 # ASDF
-. $HOME/.asdf/asdf.sh
-. $HOME/.asdf/completions/asdf.bash
+# . $HOME/.asdf/asdf.sh
+# . $HOME/.asdf/completions/asdf.bash
 
 # ZSH Completions
 fpath=(/usr/local/share/zsh-completions $fpath)
