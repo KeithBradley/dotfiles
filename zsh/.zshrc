@@ -115,15 +115,17 @@ rainymood() {
 }
 
 # use vim bindings
-bindkey -v
+#bindkey -v
 # reeable Ctrl-R for history (unbound with vim bindings)
-bindkey '^R' history-incremental-search-backward
+#bindkey '^R' history-incremental-search-backward
 
 # Added by the Heroku Toolbelt
 # export GOPATH=$HOME/go
 # export PATH="/usr/local/heroku/bin:$PATH"
 # export PATH=$GOPATH/bin:$PATH
 export PATH="/usr/local/python/bin:$PATH"
+export PATH="/Users/jackcutting/Library/Python/3.7/bin:$PATH"
+export PATH="/Applications/Postgres.app/Contents/Versions/latest/bin:$PATH"
 
 # ASDF
 # . $HOME/.asdf/asdf.sh
@@ -131,3 +133,8 @@ export PATH="/usr/local/python/bin:$PATH"
 
 # ZSH Completions
 fpath=(/usr/local/share/zsh-completions $fpath)
+
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+
+# heroku autocomplete setup
+# HEROKU_AC_ZSH_SETUP_PATH=/Users/jackcutting/Library/Caches/heroku/autocomplete/zsh_setup && test -f $HEROKU_AC_ZSH_SETUP_PATH && source $HEROKU_AC_ZSH_SETUP_PATH;
