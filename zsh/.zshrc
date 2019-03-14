@@ -96,6 +96,9 @@ alias v='nvim'
 
 # Git
 alias cleanupds="find . -type f -name '*.DS_Store' -ls -delete"
+alias gs='git status'
+alias gpom='git push origin master'
+alias gc='git commit -m'
 
 # Rails
 alias migrate="rake db:migrate db:rollback && rake db:migrate db:test:prepare"
@@ -106,6 +109,19 @@ alias b='bundle install --binstubs .bundle/bin --path .bundle/gems'
 
 # Wipe rails DB
 alias pdb="bundle exec rake db:drop db:create db:migrate db:seed RAILS_ENV=development"
+
+# Vagrant
+alias vu="vagrant up"
+alias vh="vagrant halt"
+alias vp="vagrant provision"
+alias vs="vagrant ssh"
+
+# Misc
+alias eh='sudo vi /etc/hosts'
+alias reload="source ~/.zshrc"
+alias r="reload"
+alias ls='ls -a'
+alias eod='pmset sleepnow'
 
 # Rainy Mood
 rainymood() {

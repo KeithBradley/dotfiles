@@ -42,6 +42,9 @@ apps=(
   qlimagesize
   webpquicklook
   qlvideo
+  vagrant
+  vagrant-manager
+  virtualbox
 )
 
 brew cask --force install "${apps[@]}"
